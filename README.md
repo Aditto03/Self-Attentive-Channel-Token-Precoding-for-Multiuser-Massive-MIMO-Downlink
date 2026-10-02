@@ -1,4 +1,4 @@
-# BeamTransformer: Channel-Token Transformer Beamforming for Multi-User Massive MIMO
+# Self-Attentive Channel-Token Precoding for Multiuser Massive MIMO Downlink
 
 This is the official implementation of **BeamTransformer** (paper under review; link and DOI will be added after publication).
 
@@ -9,7 +9,7 @@ This is the official implementation of **BeamTransformer** (paper under review; 
 ## Repository Structure
 
 ```
-BeamTransformer/
+Self-Attentive-Channel-Token-Precoding-for-Multiuser-Massive-MIMO-Downlink/
 ├── notebooks/
 │   ├── 01_BeamTransformer_base.ipynb
 │   ├── 02_BeamTransformer_baseline_comparison.ipynb
@@ -28,11 +28,11 @@ BeamTransformer/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Aditto03/BeamTransformer.git
+   git clone https://github.com/Aditto03/Self-Attentive-Channel-Token-Precoding-for-Multiuser-Massive-MIMO-Downlink.git
    ```
 2. Go to the project directory:
    ```bash
-   cd BeamTransformer
+   cd Self-Attentive-Channel-Token-Precoding-for-Multiuser-Massive-MIMO-Downlink
    ```
 3. Install the dependencies:
    ```bash
@@ -75,7 +75,7 @@ If you find this work useful, please cite it. BibTeX (to be updated after public
 
 ```bibtex
 @article{beamtransformer2026,
-  title   = {BeamTransformer: Channel-Token Transformer Beamforming for Multi-User Massive MIMO},
+  title   = {Self-Attentive Channel-Token Precoding for Multiuser Massive MIMO Downlink},
   author  = {Aditto, Tarvir Anjum},
   journal = {Under review},
   year    = {2026}
