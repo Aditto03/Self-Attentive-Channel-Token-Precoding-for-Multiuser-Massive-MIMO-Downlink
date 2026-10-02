@@ -21,7 +21,7 @@ Self-Attentive-Channel-Token-Precoding-for-Multiuser-Massive-MIMO-Downlink/
 | Notebook | Description |
 |---|---|
 | `01_BeamTransformer_base.ipynb` | Channel simulator, classical beamformers, BeamTransformer training and evaluation suite (sum-rate / BER vs. SNR, beampatterns, antenna-count and CSI-quality ablations). |
-| `02_BeamTransformer_baseline_comparison.ipynb` | Trains the DL baselines BlackboxFNN [B1], IAIDNN [B2] and FNN-Zhang [B3] and compares them with BeamTransformer and WMMSE. |
+| `02_BeamTransformer_baseline_comparison.ipynb` | Trains the DL baselines BlackboxFNN, IAIDNN and FNN-Zhang and compares them with BeamTransformer and WMMSE. |
 | `03_BeamTransformer_merged_ablation.ipynb` | Final unified pipeline: dataset generation, one shared training protocol for every model, full evaluation, and the architecture ablation (BeamNet-UserMLP, FlatMLP). |
 
 ## Installation
